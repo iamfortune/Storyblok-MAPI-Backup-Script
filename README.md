@@ -28,6 +28,7 @@ This Node.js script allows you to back up the content of a Storyblok space using
 <br />
 3. Run the backup script:
 
+
    ```bash
    node backup.js
    ```
