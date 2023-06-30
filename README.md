@@ -34,6 +34,7 @@ This Node.js script allows you to back up the content of a Storyblok space using
 
    The script will start the backup process, fetching stories from the specified Storyblok space and saving them as JSON files in the `./backup` directory.
 <br /> 
+<br />
 4. Push the content using [Storyblok CLI](https://github.com/storyblok/storyblok-cli):
 
    - Install the Storyblok CLI globally by running
