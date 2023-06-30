@@ -26,7 +26,7 @@ This Node.js script allows you to back up the content of a Storyblok space using
    - Replace `YOUR_ACCESS_TOKEN` with your Storyblok Management API access token.
    - Replace `STORYBLOK_API_URL` with the base URL of the Storyblok Management API (e.g., `https://api.storyblok.com/`).
 <br />
-1. Run the backup script:
+3. Run the backup script:
 
    ```bash
    node backup.js
@@ -34,7 +34,7 @@ This Node.js script allows you to back up the content of a Storyblok space using
 
    The script will start the backup process, fetching stories from the specified Storyblok space and saving them as JSON files in the `./backup` directory.
 <br /> 
-1. Push the content using [Storyblok CLI](https://github.com/storyblok/storyblok-cli):
+4. Push the content using [Storyblok CLI](https://github.com/storyblok/storyblok-cli):
 
    - Install the Storyblok CLI globally by running
     ```
