@@ -28,7 +28,6 @@ This Node.js script allows you to back up the content of a Storyblok space using
 <br />
 3. Run the backup script:
 
-
    ```bash
    node backup.js
    ```
@@ -47,6 +46,6 @@ This Node.js script allows you to back up the content of a Storyblok space using
    - Run the following command to push the backup content to Storyblok:
 
      ```bash
-     storyblok push-component --token=YOUR_ACCESS_TOKEN --path=./backup
+     storyblok push-components --token=YOUR_ACCESS_TOKEN --path=./backup
      ```
 

@@ -1,4 +1,9 @@
 node_modules/
 .npm
 .env
-.backup
+yarn.lock
+**.test.js
+yarn-error.log
+package-lock.json
+
+backup/
