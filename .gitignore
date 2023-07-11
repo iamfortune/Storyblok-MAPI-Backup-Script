@@ -5,5 +5,5 @@ yarn.lock
 **.test.js
 yarn-error.log
 package-lock.json
-
 backup/
+/backup
