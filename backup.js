@@ -11,7 +11,7 @@ const backupContent = async (token) => {
 	while (true) {
 		try {
 			const response = await axios.get(
-				"https://api.storyblok.com/v2/cdn/stories",
+				"https://api.storyblok.com/v2/cdn/stories", //https://api{-us}.storyblok.com/v2
 				{
 					params: {
 						page,
