@@ -1,11 +1,13 @@
 {
 	"name": "backup-storyblok-mapi",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "a node script to do local storage of storyblok space using the management api",
-	"main": "backup.js",
+	"main": "src/backup.js",
 	"scripts": {
-		"backup": "node backup.js",
-		"test": "npm run test"
+		"test": "npm run test",
+		"sync": "node src/sync.js",
+		"backup": "node src/backup.js",
+		"update-story": "node src/update-story.js"
 	},
 	"author": "fortune ikechi",
 	"license": "MIT",

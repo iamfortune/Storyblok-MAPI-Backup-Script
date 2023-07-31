@@ -11,7 +11,7 @@ const backupContent = async (token) => {
 	while (true) {
 		try {
 			const response = await axios.get(
-				"https://api.storyblok.com/v2/cdn/stories", //https://api{-us}.storyblok.com/v2
+				"https://api.storyblok.com/v2/cdn/stories",
 				{
 					params: {
 						page,
@@ -61,7 +61,7 @@ const readline = createInterface({
 });
 
 readline.question(
-	"Enter the ACCESS TOKEN of the space you want to backup and press enter: ",
+	"Enter an ACCESS TOKEN of the space you want to backup and press enter: ",
 	(accessToken) => {
 		if (accessToken) {
 			backupContent(accessToken);
