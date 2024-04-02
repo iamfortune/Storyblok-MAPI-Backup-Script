@@ -1,5 +1,5 @@
 ### Storyblok-backup-script
-A Node.js script for backing up content locally from a [Storyblok](storyblok.com) space with the Management API
+A Node.js script for backing up content locally from a [Storyblok](https://storyblok.com) space with the Management API
 
 #### **Description:**
 
